@@ -4,16 +4,16 @@ This is my attempt at cloud resume challenge in AWS.
 What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresumechallenge.dev/) is a multiple-step resume project which helps build and demonstrate skills fundamental to pursuing a career in Cloud. The project was published by Forrest Brazeal.
 
 ## Architecture
--taken from rishabkumar7
 
 ![Architecture Diagram](/img/AWS-Architecture-Cloud-resume-challenge.png)
+-taken from rishabkumar7
 
 **Services Used**:
 
-- S3
+- S3(Standard)
 - AWS CloudFront
 - Certificate Manager
-- AWS Lambda
+- AWS Lambda(Python 3.11)
 - Dynamo DB
 - GitHub Actions
 - Terraform(in progress)
@@ -30,7 +30,7 @@ What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresu
 - Part 6 - [Implementing Infrastructure as Code with Terraform](https://youtu.be/rzdSuiU_TQc)
 
 ## Blog Series
-- 1. (comming soon)
+- 1. (coming soon)
  
 ## Author
 - LinkedIn: [Angel Chavez](www.linkedin.com/in/angel-chavez-itanc)
