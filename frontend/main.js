@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             }
             let data = await response.json();
             console.log('Fetched data:', data); // Log to check data structure
-            counter.innerHTML = `Views: ${data.views || data}`; // Adjust based on actual data structure
+            counter.innerHTML = `${data.views || data}`; // Adjust based on actual data structure
         } catch (error) {
             console.error('Failed to fetch data:', error);
             counter.innerHTML = 'Failed to load data';
