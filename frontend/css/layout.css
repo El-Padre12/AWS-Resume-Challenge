@@ -266,6 +266,23 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+#resume .row {
+   display: flex;
+   justify-content: center; /* Centers content horizontally */
+   align-items: center; /* Centers content vertically */
+   text-align: center; /* Centers text content */
+   flex-wrap: wrap; /* Allows content to wrap if needed */
+}
+
+#resume .main-col {
+   max-width: 800px; /* Optional: Adjust to your preferred width */
+   margin: 0 auto;
+}
+
+#resume .header-col {
+   flex-basis: 100%; /* Ensures header spans the full width */
+   text-align: center;
+}
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
