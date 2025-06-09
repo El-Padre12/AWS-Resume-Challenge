@@ -17,7 +17,8 @@ What is the Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloud
 - GitHub Actions
 - Terraform(in progress)
 
-## [Live Demo 🔗](https://awsresume.it-anc.cloud/)
+## [Live Demo 🔗]
+### [Sereverless Website](https://awsresume.it-anc.cloud/)
 
 ## YouTube Series I Followed
 
@@ -28,7 +29,8 @@ What is the Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloud
 - Part 5 - [Setting up Git repo and CI/CD for frontend website](https://youtu.be/qFEf6iOo-4g)
 - Part 6 - [Implementing Infrastructure as Code with Terraform](https://youtu.be/rzdSuiU_TQc)
 
-## [Cloud Blog](https://blog.it-anc.cloud)
+## [Cloud Blog]
+### [Angel's Cloud Blog](https://blog.it-anc.cloud)
  
 ## Author
 - LinkedIn: [Angel Chavez](www.linkedin.com/in/angel-chavez-itanc)
