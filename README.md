@@ -10,11 +10,18 @@ What is the Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloud
 **Services Used**:
 
 - S3(Standard)
+    - Where my website files live
+    - Hosts my website as well
 - AWS CloudFront
+    - Edge-Caching
 - Certificate Manager
+    - TLS/HTTPS Certificate
 - AWS Lambda(Python 3.11)
+    - Updates Counter-DB every GET request
 - Dynamo DB
+    - Where my visitor counter data lives
 - GitHub Actions
+    - CICD pipeline for frontend
 - Terraform(in progress)
 
 ## Live Demo 🔗
