@@ -1,12 +1,11 @@
 # AWS Cloud Resume Challenge
 
-This is my attempt at cloud resume challenge in AWS.
-What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresumechallenge.dev/) is a multiple-step resume project which helps build and demonstrate skills fundamental to pursuing a career in Cloud. The project was published by Forrest Brazeal.
+This is my attempt at the Cloud Resume Challenge in AWS.
+What is the Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresumechallenge.dev/) is a multi-step serverless resume project which helps build and demonstrate skills fundamental to pursuing a career in Cloud.
 
 ## Architecture
 
 ![Architecture Diagram](/img/Architecture-Of-Infra.png)
--taken from rishabkumar7
 
 **Services Used**:
 
@@ -30,7 +29,7 @@ What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresu
 - Part 6 - [Implementing Infrastructure as Code with Terraform](https://youtu.be/rzdSuiU_TQc)
 
 ## Blog Series
-- 1. (coming soon)
+- 1. (https://resume.it-anc.cloud)
  
 ## Author
 - LinkedIn: [Angel Chavez](www.linkedin.com/in/angel-chavez-itanc)
