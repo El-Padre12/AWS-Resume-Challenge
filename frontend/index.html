@@ -403,6 +403,122 @@
             font-weight: 500;
         }
 
+        /* Contact Section */
+        .contact {
+            background: var(--surface);
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .contact-info {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .contact-info p {
+            margin-bottom: 1.5rem;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        .services {
+            list-style: none;
+            margin-top: 1.5rem;
+        }
+
+        .services li {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text-dark);
+        }
+
+        .services li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+            font-family: inherit;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
         /* Footer */
         footer {
             background: var(--text-dark);
@@ -692,6 +808,74 @@
                     </div>
                     <h3>Cisco Certified Support Technician</h3>
                     <div class="cert-date">November 2023</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>
+                        Ready to advance your cloud skills or need a professional website? I'm here to help! 
+                        Whether you're looking for one-on-one tutoring or need a custom website built, 
+                        I'd love to discuss your project.
+                    </p>
+                    
+                    <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Services I Offer:</h4>
+                    <ul class="services">
+                        <li>One-on-one Cloud Tutoring (AWS)</li>
+                        <li>Certification Preparation (AWS SAA-CO3, AWS DVA-CO2, AWS CLF-CO2, CompTIA Network+)</li>
+                        <li>Custom Website Development(Like This One)</li>
+                        <li>Cloud Architecture Consulting</li>
+                    </ul>
+                    
+                    <p style="margin-top: 2rem;">
+                        <strong>Response Time:</strong> Typically within 24 hours.<br>
+                        <strong>Availability:</strong> Flexible scheduling to accommodate your needs.
+                    </p>
+                </div>
+                
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xjkrqyrl" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Needed *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="cloud-tutoring">Cloud Tutoring</option>
+                                <option value="certification-prep">Certification Preparation</option>
+                                <option value="website-development">Website Development</option>
+                                <option value="cloud-consulting">Cloud Consulting</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project or learning goals..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane" style="margin-right: 0.5rem;"></i>
+                            Send Message
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
