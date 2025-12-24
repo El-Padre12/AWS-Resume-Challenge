@@ -25,6 +25,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact Me</a></li>
@@ -165,6 +166,111 @@
                             <li>Provided on-site technical support and troubleshooting for hardware, software and network issues</li>
                             <li>Installed and configured computer systems and applications according to client specifications</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- AWS Cloud Resume Challenge -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AWS Cloud Resume</h3>
+                        <p class="project-subtitle">Serverless Resume Challenge</p>
+                        <span class="status-badge status-live">● Live</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            A serverless resume website built on AWS infrastructure, featuring automated CI/CD deployment, real-time visitor tracking with Lambda and DynamoDB, and global edge caching for optimal performance.
+                        </p>
+                        
+                        <div class="tech-stack">
+                            <div class="tech-stack-title">Tech Stack</div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">AWS S3</span>
+                                <span class="tech-tag">CloudFront</span>
+                                <span class="tech-tag">Lambda</span>
+                                <span class="tech-tag">DynamoDB</span>
+                                <span class="tech-tag">GitHub Actions</span>
+                                <span class="tech-tag">Python 3.11</span>
+                            </div>
+                        </div>
+
+                        <div class="highlights">
+                            <div class="highlights-title">Key Features</div>
+                            <ul class="highlight-list">
+                                <li>Fully serverless architecture with AWS services</li>
+                                <li>Automated CI/CD pipeline with GitHub Actions</li>
+                                <li>Dynamic visitor counter with Lambda API</li>
+                                <li>TLS/HTTPS with custom domain via Certificate Manager</li>
+                                <li>Infrastructure as Code (Terraform in progress)</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://resume.it-anc.cloud/" class="btn btn-primary" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/El-Padre12/AWS-Resume-Challenge" class="btn btn-secondary" target="_blank">
+                                <i class="fab fa-github"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Barry Homelab -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Barry Homelab</h3>
+                        <p class="project-subtitle">Infrastructure as Code & Kubernetes</p>
+                        <span class="status-badge status-development">● In Development</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            Personal homelab infrastructure running on Proxmox VE with automated VM provisioning through Terraform, configuration management via Ansible, and a production-grade 4-node K3s Kubernetes cluster.
+                        </p>
+                        
+                        <div class="tech-stack">
+                            <div class="tech-stack-title">Tech Stack</div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Proxmox VE</span>
+                                <span class="tech-tag">Terraform</span>
+                                <span class="tech-tag">Ansible</span>
+                                <span class="tech-tag">K3s</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Cloud-Init</span>
+                                <span class="tech-tag">Linux</span>
+                            </div>
+                        </div>
+
+                        <div class="highlights">
+                            <div class="highlights-title">Key Features</div>
+                            <ul class="highlight-list">
+                                <li>4-node K3s cluster (1 control plane, 3 workers)</li>
+                                <li>Automated VM provisioning with Terraform</li>
+                                <li>Configuration management via Ansible playbooks</li>
+                                <li>Cloud-init automation for rapid VM deployment</li>
+                                <li>Custom development containers for IaC workflows</li>
+                                <li>Future: GitOps with ArgoCD/FluxCD for CD</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/El-Padre12/barry" class="btn btn-primary" target="_blank">
+                                <i class="fab fa-github"></i>View on GitHub
+                            </a>
+                            <a href="https://blog.it-anc.cloud" class="btn btn-secondary" target="_blank">
+                                <i class="fas fa-blog"></i>Read Blog
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
