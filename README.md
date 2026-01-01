@@ -39,10 +39,10 @@ What is the Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloud
     - Automates provisioning of Infra
 
 ## Live Demo 🔗
-### [Sereverless Website](https://awsresume.it-anc.cloud/)
+### [Serverless Website](https://resume.it-anc.cloud/)
 
 ## Cloud Blog
 ### [Angel's Cloud Blog](https://blog.it-anc.cloud)
  
 ## Author
-- LinkedIn: [Angel Chavez](www.linkedin.com/in/angel-chavez-itanc)
+- LinkedIn: [Angel Chavez](www.linkedin.com/in/it-anc)
